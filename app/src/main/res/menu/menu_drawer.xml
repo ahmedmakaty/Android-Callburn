@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="30dp">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_item_1"
+            android:title="Dashboard"
+            android:icon="@drawable/ic_dashboard_white_24dp"
+            android:checked="true" />
+
+        <item android:id="@+id/nav_item_2"
+            android:title="Templates"
+            android:icon="@drawable/ic_dashboard_white_24dp"/>
+
+        <item android:id="@+id/nav_item_3"
+            android:title="Price Calculator"
+            android:icon="@drawable/ic_dashboard_white_24dp"/>
+
+        <item android:id="@+id/nav_item_4"
+            android:title="Settings"
+            android:icon="@drawable/ic_dashboard_white_24dp"/>
+
+
+    </group>
+
+    <!--<group android:checkableBehavior="single"-->
+        <!--android:id="@+id/second_group">-->
+        <!--<item android:id="@+id/nav_item_4"-->
+            <!--android:title="Group Label">-->
+            <!--<menu>-->
+                <!--<item android:id="@+id/nav_item_5"-->
+                    <!--android:title="Favorites"-->
+                    <!--android:icon="@drawable/ic_favorite_black_24dp"/>-->
+
+                <!--<item android:id="@+id/nav_item_6"-->
+                    <!--android:title="Settings"-->
+                    <!--android:icon="@drawable/ic_build_black_24dp"/>-->
+            <!--</menu>-->
+        <!--</item>-->
+    <!--</group>-->
+</menu>

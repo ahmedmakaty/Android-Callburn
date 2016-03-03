@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+
+            <solid
+                android:background="@drawable/ic_action_action_alarm"
+                android:color="@color/colorPrimary" />
+
+            <size
+                android:width="50dp"
+                android:height="50dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="10dp"
+        android:drawable="@drawable/ic_action_image_camera_alt"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+</layer-list>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00a0e5</color>
+    <color name="colorPrimary">#23bdff</color>
+    <color name="colorPrimaryLight">#e0f6ff</color>
+    <color name="colorAccent">#a8e5ff</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="dividerColor">#B6B6B6</color>
+    <color name="selectedDot">#000000</color>
+    <color name="nonSelectedDot">#EEEEEE</color>
+
+</resources>

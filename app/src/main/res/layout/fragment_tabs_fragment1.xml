@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/myFilter"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:hint="Search Contacts"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:paddingRight="30dp"
+        android:drawableLeft="@drawable/ic_action_action_search">
+    </EditText>
+
+    <TextView
+        android:id="@+id/show_selected_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Where do you want to send your message?"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical">
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#979797"/>
+
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="3dp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
